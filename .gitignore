@@ -1,0 +1,11 @@
+# .gitignore
+node_modules/
+dist/
+npm-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+.DS_Store
+.env
+.env.*
+# gh-pages cache
+node_modules/.cache/
