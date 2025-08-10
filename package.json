@@ -1,6 +1,6 @@
 {
   "name": "mucarch-site",
-  "homepage": "https://mucarch.github.io/mucarch-website/",
+  "homepage": "https://mucarch.github.io/mucarch-website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist --no-history"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
